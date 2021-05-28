@@ -35,17 +35,6 @@ under the License.
 		<kubernetes.client.version>5.4.0</kubernetes.client.version>
 	</properties>
 
-	<!-- Set dependency version for transitive dependencies -->
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>com.squareup.okhttp3</groupId>
-				<artifactId>okhttp</artifactId>
-				<version>3.12.1</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-
 	<dependencies>
 
 		<!-- core dependencies  -->
